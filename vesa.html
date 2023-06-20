@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="alapoldal.css">
+<title>Versa</title>
+</head>
+<body>
+    <div class="hatter">
+		<img src="Kepek/b.jpg" class="Versaalt="Ez a háttér">
+	    
+		<div class="nagycim">
+		</div>
+		
+		
+		<a class="gomb" href="#Idejön">tovább</a>
+		
+		
+		
+    </div>
+	
+	<div class="tartalom">
+		
+		<h1>A Versa</h1>
+		
+		<div class="picture">
+		 <img src="Kepek/dc.gif" class="discord">
+		</div>
+		
+		<div class="szoveg" id="Idejön">
+		 <h1>bemutató</h1>
+		 <p>
+		     Úgy jött létre hogy elegünk volt a windows-ból.
+			 Ez egyletisztult windows, kihagyva a widows hibákat.ha hiba van a neten
+			 szolj discordon
+			 discord: https://discord.gg/neonity'networks
+		  
+		  
+		  
+		
+		  
+		 </p>
+		</div>
+	</div>
+	
+	
+		<div class="writer">
+          <h1>fontos!</h1>
+          <button class="button" onclick="typeWriter()">Click here!</button>
+           <p id="demo"></p>
+		</div>
+	
+	
+<script>
+var i = 0;
+var txt = 'Helló Updatek Lesznek még!';  
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
