@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="alapoldal.css">
+<title>coolpix studios</title>
+</head>
+<body>
+    <div class="hatter">
+		<img src="Kepek/mercedes.jpg" class="mercedes" alt="Ez a háttér">
+	    
+		<div class="nagycim">
+		  <h1>coolpix studios</h1>
+		</div>
+		
+		
+		<a class="gomb" href="#Idejön">Tovább</a>
+		
+		
+		
+    </div>
+	
+	<div class="tartalom">
+		
+		<h1>cégünk</h1>
+		
+		<div class="picture">
+		 <img src="Kepek/cs.jpg" class="matrix">
+		</div>
+		
+		<div class="szoveg" id="Idejön">
+		 <h1>Rólunk</h1>
+		 <p>
+			hello, üdv a coolpix studios-ban
+             valami baj van szolj nekünk
+
+
+    	discord:https://discord.gg/k6YPUtSP
+        discord2:https://discord.gg/bYJEBX3D
+        email:Coolpixstudios@outlook.com
+        support:email:Coolpix-studios.support@proton.me
+
+		  
+		  
+		  
+		  discord:  
+		  
+		  
+		  
+		
+		  
+		 </p>
+		</div>
+	</div>
+	
+	
+		<div class="writer">  
+          <h1>fontos!</h1>
+          <button class="button" onclick="typeWriter()">Click here!</button>
+           <p id="demo"></p>
+		</div>
+	
+	
+<script>
+var i = 0;
+var txt = 'Helló Updatek Lesznek még!';  
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+</body>
+</html>
